@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Palette</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="./output.css" rel="stylesheet">
+
+</head>
+<body class="h-screen grid grid-cols-2 grid-rows-2 gap-2">
+    <div class="bg-yellow-300 flex items-center justify-center text-6xl" onclick="getMood(0)">😀</div>
+    <div class="bg-blue-400 flex items-center justify-center text-6xl" onclick="getMood(1)">😞</div>
+    <div class="bg-red-400 flex items-center justify-center text-6xl" onclick="getMood(2)">😡</div>
+    <div class="bg-purple-400 flex items-center justify-center text-6xl" onclick="getMood(3)">😎</div>
+
+    <script src="index.js"></script>
+</body>
+</html>
