@@ -7,3 +7,5 @@ HTML for structure
 Tailwind CSS for styling
 
 JavaScript for interaction + logic
+
+Visit: https://surbhi-codes.github.io/mood_palette/
