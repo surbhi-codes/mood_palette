@@ -6,7 +6,7 @@ const quotes = ["Your smile is basically solar energy. Keep shining, bestie the 
 const colors = ["bg-yellow-300", "bg-blue-400", "bg-red-400", "bg-purple-400"];
 
 function getMood(num) {
-    window.location.href = "/message.html?mood=" + encodeURIComponent(num);
+    window.location.href = "/mood_palette/message.html?mood=" + encodeURIComponent(num);
 }
 
 function displayMessage() {
